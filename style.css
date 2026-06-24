@@ -1,0 +1,75 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+   
+}
+.table-container{
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1p 15px rgba(207, 45, 45, 0.5);
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 7px 3px 15px red;
+    letter-spacing: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+   
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px red;
+}
+.qaybta-headka{
+    background-color: #0b2567;
+}
+
+th{
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b0b0b0;
+}
+th:hover{
+    background-color: rgb(212, 218, 223);
+    color: rgb(235, 164, 76);
+    transition: 0.7s;
+}
+.malinta{
+    background-color: #85b3e5;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+.malinta td{
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #b0b0b0;
+}
+td{
+    padding: 10px;
+    border: 1px solid #b0b0b0;
+    color: #333;
+    font-size: 14px;
+}
+.waqtiga{
+    color: #a32613;
+    font-weight: bold;
+    text-align: center;
+}
+.tr:hover{
+    background-color: #e5e3ec;
+    transition: 0.7s;
+    
+}
